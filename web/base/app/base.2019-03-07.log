@@ -1,0 +1,133 @@
+2019-03-07 11:25:34.205 [main] INFO  com.owen.test.SpringbootApplicationTests - Starting SpringbootApplicationTests on DESKTOP-CGBVTM0 with PID 5472 (started by 35156 in G:\parent-master\web)
+2019-03-07 11:25:34.208 [main] DEBUG com.owen.test.SpringbootApplicationTests - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-03-07 11:25:34.209 [main] INFO  com.owen.test.SpringbootApplicationTests - No active profile set, falling back to default profiles: default
+2019-03-07 11:25:34.941 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2019-03-07 11:25:37.098 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-07 11:25:39.972 [main] DEBUG org.hibernate.SQL - select resource0_.id as id1_3_, resource0_.create_time as create_t2_3_, resource0_.description as descript3_3_, resource0_.icon as icon4_3_, resource0_.is_hide as is_hide5_3_, resource0_.level as level6_3_, resource0_.name as name7_3_, resource0_.parent_id as parent_13_3_, resource0_.sort as sort8_3_, resource0_.source_key as source_k9_3_, resource0_.source_url as source_10_3_, resource0_.type as type11_3_, resource0_.update_time as update_12_3_ from tb_resource resource0_
+2019-03-07 11:25:40.681 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2019-03-07 11:25:40.697 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2019-03-07 11:25:40.698 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2019-03-07 11:25:40.699 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\35156\AppData\Local\Temp\
+2019-03-07 11:25:40.723 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+2019-03-07 11:25:40.726 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2019-03-07 11:25:40.738 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2019-03-07 11:25:40.789 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2019-03-07 11:25:40.789 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2019-03-07 11:25:40.790 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2019-03-07 11:25:40.796 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2019-03-07 11:25:40.796 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2019-03-07 11:25:40.796 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2019-03-07 11:25:40.797 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2019-03-07 11:25:40.814 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\35156\AppData\Local\Temp
+2019-03-07 11:25:40.814 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\35156\AppData\Local\Temp\.ehcache-diskstore.lock
+2019-03-07 11:25:40.815 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2019-03-07 11:25:40.822 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\35156\AppData\Local\Temp\resource%0043ache.index
+2019-03-07 11:25:40.823 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2019-03-07 11:25:40.880 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2019-03-07 11:25:40.881 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2019-03-07 11:25:40.881 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2019-03-07 11:25:40.881 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2019-03-07 11:25:40.882 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2019-03-07 11:25:40.896 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2019-03-07 11:25:40.898 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2019-03-07 11:25:40.898 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2019-03-07 11:25:40.900 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2019-03-07 11:25:40.900 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2019-03-07 11:25:40.900 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2019-03-07 11:25:40.901 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2019-03-07 11:25:40.901 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2019-03-07 11:25:40.907 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2019-03-07 11:25:40.907 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2019-03-07 11:25:40.907 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2019-03-07 11:25:42.928 [main] INFO  com.owen.test.SpringbootApplicationTests - Started SpringbootApplicationTests in 9.151 seconds (JVM running for 10.509)
+2019-03-07 11:25:43.026 [main] DEBUG org.hibernate.SQL - select device0_.id as id1_0_, device0_.app_id as app_id2_0_, device0_.create_time as create_t3_0_, device0_.delete_str as delete_s4_0_, device0_.device_sn as device_s5_0_, device0_.group_id as group_id6_0_, device0_.hardware_ver as hardware7_0_, device0_.ip as ip8_0_, device0_.location as location9_0_, device0_.remark as remark10_0_, device0_.status as status11_0_, device0_.update_time as update_12_0_ from tb_device device0_ where device0_.device_sn=?
+2019-03-07 11:25:43.062 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-03-07 13:25:03.613 [main] INFO  com.owen.test.SpringbootApplicationTests - Starting SpringbootApplicationTests on DESKTOP-CGBVTM0 with PID 16320 (started by 35156 in G:\parent-master\web)
+2019-03-07 13:25:03.618 [main] DEBUG com.owen.test.SpringbootApplicationTests - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-03-07 13:25:03.618 [main] INFO  com.owen.test.SpringbootApplicationTests - No active profile set, falling back to default profiles: default
+2019-03-07 13:25:04.380 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2019-03-07 13:25:06.512 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-07 13:25:09.345 [main] DEBUG org.hibernate.SQL - select resource0_.id as id1_3_, resource0_.create_time as create_t2_3_, resource0_.description as descript3_3_, resource0_.icon as icon4_3_, resource0_.is_hide as is_hide5_3_, resource0_.level as level6_3_, resource0_.name as name7_3_, resource0_.parent_id as parent_13_3_, resource0_.sort as sort8_3_, resource0_.source_key as source_k9_3_, resource0_.source_url as source_10_3_, resource0_.type as type11_3_, resource0_.update_time as update_12_3_ from tb_resource resource0_
+2019-03-07 13:25:10.205 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2019-03-07 13:25:10.234 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2019-03-07 13:25:10.234 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2019-03-07 13:25:10.236 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\35156\AppData\Local\Temp\
+2019-03-07 13:25:10.275 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+2019-03-07 13:25:10.279 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2019-03-07 13:25:10.291 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2019-03-07 13:25:10.366 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2019-03-07 13:25:10.367 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2019-03-07 13:25:10.367 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2019-03-07 13:25:10.377 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2019-03-07 13:25:10.377 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2019-03-07 13:25:10.377 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2019-03-07 13:25:10.378 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2019-03-07 13:25:10.399 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\35156\AppData\Local\Temp
+2019-03-07 13:25:10.399 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\35156\AppData\Local\Temp\.ehcache-diskstore.lock
+2019-03-07 13:25:10.400 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2019-03-07 13:25:10.401 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2019-03-07 13:25:10.410 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\35156\AppData\Local\Temp\resource%0043ache.index
+2019-03-07 13:25:10.411 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2019-03-07 13:25:10.475 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2019-03-07 13:25:10.476 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2019-03-07 13:25:10.476 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2019-03-07 13:25:10.476 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2019-03-07 13:25:10.477 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2019-03-07 13:25:10.493 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2019-03-07 13:25:10.495 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2019-03-07 13:25:10.495 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2019-03-07 13:25:10.496 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2019-03-07 13:25:10.497 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2019-03-07 13:25:10.498 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2019-03-07 13:25:10.500 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2019-03-07 13:25:10.500 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2019-03-07 13:25:10.506 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2019-03-07 13:25:10.506 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2019-03-07 13:25:10.506 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2019-03-07 13:25:12.706 [main] INFO  com.owen.test.SpringbootApplicationTests - Started SpringbootApplicationTests in 9.403 seconds (JVM running for 10.627)
+2019-03-07 13:25:12.800 [main] DEBUG org.hibernate.SQL - select device0_.id as id1_0_, device0_.app_id as app_id2_0_, device0_.create_time as create_t3_0_, device0_.delete_str as delete_s4_0_, device0_.device_sn as device_s5_0_, device0_.group_id as group_id6_0_, device0_.hardware_ver as hardware7_0_, device0_.ip as ip8_0_, device0_.location as location9_0_, device0_.remark as remark10_0_, device0_.status as status11_0_, device0_.update_time as update_12_0_ from tb_device device0_ where device0_.device_sn=?
+2019-03-07 13:25:12.856 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-03-07 17:14:52.221 [main] INFO  com.owen.test.SpringbootApplicationTests - Starting SpringbootApplicationTests on DESKTOP-CGBVTM0 with PID 4116 (started by 35156 in G:\parent-master\web)
+2019-03-07 17:14:52.225 [main] DEBUG com.owen.test.SpringbootApplicationTests - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-03-07 17:14:52.225 [main] INFO  com.owen.test.SpringbootApplicationTests - No active profile set, falling back to default profiles: default
+2019-03-07 17:14:53.018 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2019-03-07 17:14:55.255 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-03-07 17:14:57.843 [main] DEBUG org.hibernate.SQL - select resource0_.id as id1_3_, resource0_.create_time as create_t2_3_, resource0_.description as descript3_3_, resource0_.icon as icon4_3_, resource0_.is_hide as is_hide5_3_, resource0_.level as level6_3_, resource0_.name as name7_3_, resource0_.parent_id as parent_13_3_, resource0_.sort as sort8_3_, resource0_.source_key as source_k9_3_, resource0_.source_url as source_10_3_, resource0_.type as type11_3_, resource0_.update_time as update_12_3_ from tb_resource resource0_
+2019-03-07 17:14:58.551 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2019-03-07 17:14:58.569 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2019-03-07 17:14:58.569 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2019-03-07 17:14:58.570 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\35156\AppData\Local\Temp\
+2019-03-07 17:14:58.595 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+2019-03-07 17:14:58.598 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2019-03-07 17:14:58.609 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2019-03-07 17:14:58.669 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2019-03-07 17:14:58.669 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2019-03-07 17:14:58.669 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2019-03-07 17:14:58.676 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2019-03-07 17:14:58.676 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2019-03-07 17:14:58.676 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2019-03-07 17:14:58.677 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2019-03-07 17:14:58.691 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\35156\AppData\Local\Temp
+2019-03-07 17:14:58.691 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\35156\AppData\Local\Temp\.ehcache-diskstore.lock
+2019-03-07 17:14:58.693 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2019-03-07 17:14:58.700 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\35156\AppData\Local\Temp\resource%0043ache.index
+2019-03-07 17:14:58.700 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2019-03-07 17:14:58.752 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2019-03-07 17:14:58.753 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2019-03-07 17:14:58.754 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2019-03-07 17:14:58.754 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2019-03-07 17:14:58.754 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2019-03-07 17:14:58.774 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2019-03-07 17:14:58.775 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2019-03-07 17:14:58.776 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2019-03-07 17:14:58.776 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2019-03-07 17:14:58.776 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2019-03-07 17:14:58.777 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2019-03-07 17:14:58.777 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2019-03-07 17:14:58.777 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2019-03-07 17:14:58.783 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2019-03-07 17:14:58.784 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2019-03-07 17:14:58.784 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2019-03-07 17:15:00.795 [main] INFO  com.owen.test.SpringbootApplicationTests - Started SpringbootApplicationTests in 9.026 seconds (JVM running for 10.242)
+2019-03-07 17:15:00.960 [main] DEBUG org.hibernate.SQL - select g.* from tb_group g,tb_user u where g.gua_id=u.id and g.gua_id= ?
+2019-03-07 17:15:00.999 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
