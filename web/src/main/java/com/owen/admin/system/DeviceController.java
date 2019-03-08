@@ -48,11 +48,16 @@ public class DeviceController extends BaseController {
 
     @RequestMapping(value = "/mydevice" )
     @ResponseBody
-    public Page<Device> mydevice(){
+    public Page<Device> mydevice() throws NullPointerException{
             HttpSession session=request.getSession();
             User user= (User) session.getAttribute("userObject");
             Group group=groupDao.selectGroupByName(user.getId());
-            Integer s=group.getId();
+            Integer s;
+            if(group==null){
+                s=0;
+            }else{
+                s=group.getId();
+            }
             String searchText=Integer.toString(s);
             Page<Device> page=deviceService.assGroupId(searchText, getPageRequest());
             return page;
