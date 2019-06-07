@@ -130,4 +130,16 @@ public class UserController extends BaseController {
 		}
 		return JsonResult.success();
 	}
+	@ResponseBody
+	@RequestMapping(value = "/grant1/{id}", method = RequestMethod.POST)
+	public JsonResult test1(@PathVariable Integer id,String[] roleIds, ModelMap map) {
+		try {
+			userService.grant(id,roleIds);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return JsonResult.failure(e.getMessage());
+		}
+		return JsonResult.success();
+	}
+
 }
